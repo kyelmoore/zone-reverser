@@ -13,6 +13,4 @@ I'm no shell wizard, so it's not complicated and is very limited, but I found it
 
 Simple usage, no options, no arguments
 
-As an example, if I had forward-zone.txt and wanted to generate the reverse zone, which I want named reverse-zone.txt, my command looks like:
-
-./zone-reverser.sh forward-zone.txt reverse-zone.txt
+./zone-reverser.sh <input-zone-file> <intended-reverse-zone-file>
