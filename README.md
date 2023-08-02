@@ -7,7 +7,7 @@ ME TOO
 That's why I threw together this short script that simply takes a zone file as input, and outputs a reverse zone file using it's contents. I'm no coding wizard, so it's not complicated and is very limited, but I found it useful, especially because the only automation I could find to assist with this problem was from like, 2002, oof.
 
 
-**Example**
+**EXAMPLE**
 
 Simple usage, no options, no arguments
 
