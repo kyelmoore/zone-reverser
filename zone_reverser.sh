@@ -29,7 +29,7 @@ while read -r line; do
     if [ "$type" = "A" ]; then
       # Extract IP address octets
       IFS='.' read -r -a octets <<< "$value"
-      reversed_octets="${octets[3]}.${octets[2]}.${octets[1]}.${octets[0]}"
+      reversed_octets="${octets[2]}.${octets[1]}.${octets[0]}"
       echo "$reversed_octets.in-addr.arpa    $class    PTR    $name" >> "$output_file"
     else
       # Copy other records as they are
