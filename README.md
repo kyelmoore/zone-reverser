@@ -13,4 +13,4 @@ I'm no shell wizard, so it's not complicated and is very limited, but I found it
 
 Simple usage, no options, no arguments
 
-./zone_reverser.sh \<input-zone-file\> \<intended-reverse-zone-file\>
+./zone_reverser.sh \<input-zone-file\> \<output-reverse-zone-file\>
